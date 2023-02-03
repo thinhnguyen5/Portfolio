@@ -8,7 +8,7 @@ const Header = () => {
         <nav className="nav container">
             <a href="index.html" className="navLogo">Thinh</a>
 
-            <div className={Toggle ? "navMenu show-menu" : "navMenu" }>
+            <div className={Toggle ? "nav-menu show-menu" : "nav-menu" }>
                 <ul className="navList grid">
                     <li className="navItem">
                         <a href="#home" className="navLink activeLink">
