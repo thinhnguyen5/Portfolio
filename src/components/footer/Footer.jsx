@@ -14,13 +14,23 @@ const Footer = () => {
                 </li>
 
                 <li>
-                    <a href="#portfolio"
+                    <a href="#skills"
+                    className='footer__link'>Skills</a>
+                </li>
+
+                <li>
+                    <a href="#project"
                     className='footer__link'>Project</a>
                 </li>
 
                 <li>
                     <a href="#qualification"
                     className='footer__link'>Qualification</a>
+                </li>
+
+                <li>
+                    <a href="#contact"
+                    className='footer__link'>Contact</a>
                 </li>
             </ul>
 
