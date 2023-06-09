@@ -6,7 +6,14 @@ const Data = () => {
         <h1 className="home__title"> Thinh Nguyen!
         </h1>
         <h3 className="home__subtitle">Web Developer</h3>
-        <p className="home__description">A 4th student at Oulu University of Applied Sciences who comes from a different culture and is interested in gaining new experiences and developing innovative ideas. My long-term goal is to work in the field of software engineering, specifically in front-end and back-end technologies.</p>
+        <p className="home__description">
+          A fresh graduate student from Oulu University of Applied Sciences who comes
+          from a different culture and is interested in gaining new experiences and
+          developing innovative ideas. My long-term goal is to work in software
+          engineering, specifically in web development. I have a strong interest in picking
+          up new languages and technologies. I AM SEEN AS A TEAM PLAYER
+          because I like lending a hand to others and tend to get along well with others.
+        </p>
         <a href="#contact" className="button button--flex">
             Say Hi
             <svg
