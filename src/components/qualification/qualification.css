@@ -68,7 +68,7 @@
     display: inline-block;
     width: 13px;
     height: 13px;
-    background-color: var(--text-color);
+    background-color: #27ae60;
     border-radius: 50%;
 }
 

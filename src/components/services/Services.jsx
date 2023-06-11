@@ -15,7 +15,7 @@ const Services = () => {
         <div className="services__container container grid">
             <div className="services__content">
                 <div>
-                    <i className="uil uil-web-grid services__icon"></i>
+                    <i className="uil uil-edit services__icon"></i>
                     <h3 className="services__title">HAIRCUT OPEN MAP</h3>
                 </div>
 
@@ -62,14 +62,21 @@ const Services = () => {
                             <li className='services__modal-service'>
                                 <i className="uil uil-check-circle services__modal-icon"></i>
                                 <p className='services__modal-info'>
-                                    GitHub: https://github.com/prod-des-project-2021/group_1
+                                    Technologies: ReactJS, Typescript, AG-grid, ExpressJS, Mongoose, Netlify, Heroku 20.
                                 </p>
                             </li>
 
                             <li className='services__modal-service'>
                                 <i className="uil uil-check-circle services__modal-icon"></i>
                                 <p className='services__modal-info'>
-                                    Deploy: https://haircutapp.netlify.app/
+                                    Github: <a href='https://github.com/prod-des-project-2021/group_1'>https://github.com/prod-des-project-2021/group_1</a>
+                                </p>
+                            </li>
+
+                            <li className='services__modal-service'>
+                                <i className="uil uil-check-circle services__modal-icon"></i>
+                                <p className='services__modal-info'>
+                                    Deploy: <a href='https://haircutapp.netlify.app/'>https://haircutapp.netlify.app/</a>
                                 </p>
                             </li>
                         </ul>
@@ -79,7 +86,7 @@ const Services = () => {
 
             <div className="services__content">
                 <div>
-                    <i className="uil uil-arrow services__icon"></i>
+                    <i className="uil uil-edit services__icon"></i>
                     <h3 className="services__title">BACKEND DEVELOPER</h3>
                 </div>
 
@@ -179,14 +186,74 @@ const Services = () => {
                             <li className='services__modal-service'>
                                 <i className="uil uil-check-circle services__modal-icon"></i>
                                 <p className='services__modal-info'>
-                                    Github: https://github.com/thinhnguyen5/E-commerce-Web-App <br /> https://github.com/thinhnguyen5/E-Commerce-Web-App-Api.git 
+                                    Github: <a href= 'https://github.com/thinhnguyen5/E-commerce-Web-App'>https://github.com/thinhnguyen5/E-commerce-Web-App</a> <br /> <a href= 'https://github.com/thinhnguyen5/E-Commerce-Web-App-Api.git'>https://github.com/thinhnguyen5/E-Commerce-Web-App-Api.git</a>
                                 </p>
                             </li>
 
                             <li className='services__modal-service'>
                                 <i className="uil uil-check-circle services__modal-icon"></i>
                                 <p className='services__modal-info'>
-                                    Deploy: https://e-commerce-t-shirt-website.netlify.app/
+                                    Deploy: <a href= 'https://e-commerce-t-shirt-website.netlify.app/'>https://e-commerce-t-shirt-website.netlify.app/</a>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div className="services__content">
+                <div>
+                    <i className="uil uil-edit services__icon"></i>
+                    <h3 className="services__title">SUMMER PROJECT</h3>
+                </div>
+
+                <span className="services__button" onClick={() => toggleTab(4)}>View More
+                    <i className="uil uil-arrow-right
+                    services__button-icon"></i>
+                </span>
+
+                <div className={toggleState === 4 ? "services__modal active-modal" : "services__modal"}>
+                    <div className="services__modal-content">
+                        <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
+
+                        <h3 className="services__modal-title">Coffee Store</h3>
+                        <p
+                        className='services__modal-description'>A project about a coffee website where there is a coffee menu and addresses of coffee shops in Hanoi Vietnam</p>
+
+                        <ul className='services__modal-services grid'>
+                            <li className='services__modal-service'>
+                                <i className="uil uil-check-circle services__modal-icon"></i>
+                                <p className='services__modal-info'>
+                                    Human Resources: 1 member
+                                </p>
+                            </li>
+
+                            <li className='services__modal-service'>
+                                <i className="uil uil-check-circle services__modal-icon"></i>
+                                <p className='services__modal-info'>
+                                    Responsibility: Write an API for the coffee menu that includes basic information about a drink and authentication for users. Connect client side and server side and interface functions.
+                                </p>
+                            </li>
+
+                            <li className='services__modal-service'>
+                                <i className="uil uil-check-circle services__modal-icon"></i>
+                                <p className='services__modal-info'>
+                                    Technologies used in this project included React.js, NodeJS, ExpressJS, Mongoose.
+                                </p>
+                            </li>
+
+                            <li className='services__modal-service'>
+                                <i className="uil uil-check-circle services__modal-icon"></i>
+                                <p className='services__modal-info'>
+                                    Github: <a href= 'https://github.com/thinhnguyen5/Summer-Project'>https://github.com/thinhnguyen5/Summer-Project</a> <br /> 
+                                            <a href= 'https://github.com/thinhnguyen5/coffeeApi'>https://github.com/thinhnguyen5/coffeeApi</a>
+                                </p>
+                            </li>
+
+                            <li className='services__modal-service'>
+                                <i className="uil uil-check-circle services__modal-icon"></i>
+                                <p className='services__modal-info'>
+                                    Demo Video: <a href= 'https://www.youtube.com/watch?v=sMoYKo9IdDk'>https://www.youtube.com/watch?v=sMoYKo9IdDk</a>
                                 </p>
                             </li>
                         </ul>
