@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Frontend = () => {
+const VersionControl = () => {
   return (
     <div className="skills__content">
-        <h3 className="skills__title">Frontend Developer</h3>
+        <h3 className="skills__title">Testing</h3>
 
         <div className="skills__box">
             <div className="skills__group">
@@ -11,7 +11,7 @@ const Frontend = () => {
                     <i class='bx bx-badge-check'></i>
 
                     <div>
-                        <h3 className="skills__name">HTML</h3>
+                        <h3 className="skills__name">Unit test</h3>
                     </div>
                 </div>
 
@@ -19,15 +19,7 @@ const Frontend = () => {
                     <i class='bx bx-badge-check'></i>
 
                     <div>
-                        <h3 className="skills__name">CSS</h3>
-                    </div>
-                </div>
-
-                <div className="skills__data">
-                    <i class='bx bx-badge-check'></i>
-
-                    <div>
-                        <h3 className="skills__name">JavaScript</h3>
+                        <h3 className="skills__name">Automation test(Jest, Mocha Chai)</h3>
                     </div>
                 </div>
             </div>
@@ -37,15 +29,7 @@ const Frontend = () => {
                     <i class='bx bx-badge-check'></i>
 
                     <div>
-                        <h3 className="skills__name">TailwindCSS</h3>
-                    </div>
-                </div>
-
-                <div className="skills__data">
-                    <i class='bx bx-badge-check'></i>
-
-                    <div>
-                        <h3 className="skills__name">ReactJs</h3>
+                        <h3 className="skills__name">TDD</h3>
                     </div>
                 </div>
             </div>
@@ -54,4 +38,4 @@ const Frontend = () => {
   )
 }
 
-export default Frontend
+export default VersionControl

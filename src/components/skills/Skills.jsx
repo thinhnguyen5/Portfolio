@@ -3,6 +3,9 @@ import "./skills.css";
 import Frontend from './Frontend';
 import Backend from './Backend';
 import VersionControl from './VersionControl';
+import Cloud from './Cloud';
+import Testing from './Testing';
+import Other from './Other';
 
 const Skills = () => {
   return (
@@ -14,6 +17,9 @@ const Skills = () => {
             <Frontend />
             <Backend />
             <VersionControl />
+            <Cloud />
+            <Testing />
+            <Other />
         </div>
     </section>
   )

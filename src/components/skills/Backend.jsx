@@ -12,7 +12,6 @@ const Backend = () => {
 
                     <div>
                         <h3 className="skills__name">Node JS</h3>
-                        <span className="skills__level">Advanced</span>
                     </div>
                 </div>
 
@@ -21,7 +20,6 @@ const Backend = () => {
 
                     <div>
                         <h3 className="skills__name">C# .Net</h3>
-                        <span className="skills__level">Basic</span>
                     </div>
                 </div>
 
@@ -30,7 +28,6 @@ const Backend = () => {
 
                     <div>
                         <h3 className="skills__name">PHP</h3>
-                        <span className="skills__level">Basic</span>
                     </div>
                 </div>
             </div>
@@ -41,7 +38,6 @@ const Backend = () => {
 
                     <div>
                         <h3 className="skills__name">MongoDB</h3>
-                        <span className="skills__level">Advanced</span>
                     </div>
                 </div>
 
@@ -50,7 +46,6 @@ const Backend = () => {
 
                     <div>
                         <h3 className="skills__name">DynamoDB</h3>
-                        <span className="skills__level">Basic</span>
                     </div>
                 </div>
 
@@ -59,7 +54,6 @@ const Backend = () => {
 
                     <div>
                         <h3 className="skills__name">MySQL</h3>
-                        <span className="skills__level">Intermediate</span>
                     </div>
                 </div>
             </div>
