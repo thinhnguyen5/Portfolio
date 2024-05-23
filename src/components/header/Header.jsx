@@ -14,7 +14,18 @@ const Header = () => {
   return (
     <header className="header">
         <nav className="nav container">
-            <a href="index.html" className="navLogo">Thinh</a>
+            <div className="nav__left">
+                <a href="#home" className="navLogo">
+                    Thinh
+                </a>
+                <div className="itemContainer">
+                    <i className="uil uil-envelope nav__left-icon"></i>
+
+                    <span className='nav__left-email'>
+                        thinhnguyen050700@gmail.com
+                    </span>
+                </div>
+            </div>
 
             <div className={Toggle ? "nav-menu show-menu" : "nav-menu" }>
                 <ul className="navList grid">
