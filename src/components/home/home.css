@@ -6,6 +6,8 @@
     grid-template-columns: 116px repeat(2, 1fr);
     padding-top: 5.5rem;
     column-gap: 2rem;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -105,6 +107,43 @@
 .home__scroll-arrow {
     font-size: 1.25rem;
     color: hsl(122, 40%, 50%);
+}
+
+/* Information */
+
+.information__greet {
+    color:hsl(122, 40%, 50%)
+}
+
+.information__greet h2{
+    font-size: 2.2rem;
+}
+
+.information__greet h1{
+    font-size: 4rem;
+    margin: 1px 0;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.wrapper .static-txt {
+    color: hsl(122, 40%, 50%);
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.wrapper .dynamic-txts {
+    margin-left: 15px;
+}
+
+.dynamic-txts li {
+    color: hsl(122, 40%, 50%);
+    list-style: none;
+    font-size: 40px;
+    font-weight: 500;
+    text-shadow: .2rem .2rem #28272a;
 }
 
 @media screen and (max-width: 992px) {

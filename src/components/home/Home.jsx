@@ -2,7 +2,9 @@ import React from 'react';
 import "./home.css";
 import Social from './Social';
 import Data from './Data';
+import Information from './Information';
 import ScrollDown from './ScrollDown';
+import Info from '../about/Info';
 
 const Home = () => {
   return (
@@ -11,9 +13,12 @@ const Home = () => {
             <div className="home__content grid">
                 <Social />
 
-                <div className="home__img"></div>
+                <Information />
 
-                <Data />
+                <Info />
+                {/* <div className="home__img"></div> */}
+
+                {/* <Data /> */}
             </div>
 
             <ScrollDown />
