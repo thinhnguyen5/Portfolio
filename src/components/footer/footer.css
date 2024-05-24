@@ -9,7 +9,7 @@
 
 .footer__title,
 .footer__link {
-    color: var(--title-color);
+    color: hsl(122, 40%, 50%);
 }
 
 .footer__title {
@@ -35,7 +35,7 @@
 }
 
 .footer__social-link {
-    background-color: #2d3436;
+    background-color: hsl(122, 40%, 50%);
     color: var(--container-color);
     font-size: 1.115rem;
     padding: 0.4rem;
@@ -44,7 +44,7 @@
 }
 
 .footer__social-link:hover {
-    background-color: #b2bec3;
+    opacity: .5;
 }
 
 .footer__copy {
@@ -54,6 +54,7 @@
     text-align: center;
     font-size: var(--smaller-font-size);
     font-weight: bold;
+    color: hsl(122, 40%, 50%);
 }
 
 @media screen and (max-width: 992px) {
