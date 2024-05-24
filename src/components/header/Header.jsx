@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './header.css';
-import Cv from "../../assets/Thinh_Nguyen_Cv.pdf";
 
 const Header = () => {
     window.addEventListener('scroll', function() {
@@ -56,7 +55,7 @@ const Header = () => {
                         </a>
                     </li>
                     <li className="navItem">
-                        <a href={Cv} onClick={() => setActiveNav('#cv')} className={activeNav === "#cv" ? "nav__link active-link" : "nav__link"}>
+                        <a href="" onClick={() => setActiveNav('#cv')} className={activeNav === "#cv" ? "nav__link active-link" : "nav__link"}>
                             <i className="uil uil-message navIcon"></i> CV
                         </a>
                     </li>

@@ -1,5 +1,6 @@
 .qualification__container {
     max-width: 768px;
+    margin-top: 15px;;
 }
 
 .qualification__tabs {
@@ -11,13 +12,13 @@
 .qualification__button {
     font-size: var(--h3-font-size);
     font-weight: bold;
-    color: #1e272e;
+    color: hsl(122, 40%, 50%);
     margin: 0 var(--mb-1);
     cursor: pointer;
 }
 
 .qualification__button:hover {
-    color: var(--title-color-dark);
+    opacity: .5;
 }
 
 .qualification__icon {
@@ -52,23 +53,26 @@
 .qualification__title {
     font-size: var(--normal-font-size);
     font-weight: bold;
+    color: hsl(122, 40%, 50%);
 }
 
 .qualification__subtitle {
     display: inline-block;
     font-size: var(--small-font-size);
     margin-bottom: var(--mb-1);
+    color: hsl(122, 40%, 50%);
 }
 
 .qualification__calender {
     font-size: var(--small-font-size);
+    color: hsl(122, 40%, 50%);
 }
 
 .qualification__rounder {
     display: inline-block;
     width: 13px;
     height: 13px;
-    background-color: #27ae60;
+    background-color: hsl(122, 40%, 50%);
     border-radius: 50%;
 }
 
@@ -76,7 +80,7 @@
     display: block;
     width: 1px;
     height: 100%;
-    background-color: var(--text-color);
+    background-color: hsl(122, 40%, 50%);;
     transform: translate(6px, -7px);
 }
 
