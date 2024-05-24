@@ -1,6 +1,6 @@
 import React from 'react';
 import "./about.css";
-import CV from "../../assets/Thinh_Nguyen_CV.pdf";
+import CV from "../../assets/Thinh_Nguyen_Cv.pdf";
 import Info from './Info';
 import Social from '../home/Social';
 

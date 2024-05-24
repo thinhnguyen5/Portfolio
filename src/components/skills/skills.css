@@ -1,7 +1,12 @@
+.section__title {
+    color: hsl(122, 40%, 50%);
+}
+
 .skills__container {
     grid-template-columns: repeat(3, 350px);
     column-gap: 3rem;
     justify-content: center;
+    margin-top: 20px;
 }
 
 .skills__content {
@@ -9,6 +14,7 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 2rem 4rem;
     border-radius: 1.25rem;
+    background-color: hsl(122, 40%, 50%);
 }
 
 .skills__title {
@@ -16,6 +22,7 @@
     font-weight: bold;
     text-align: center;
     margin-bottom: var(--mb-1-5);
+    color: #fff;
 }
 
 .skills__box {
@@ -37,17 +44,24 @@
 
 .skills .bx-badge-check {
     font-size: 1rem;
-    color: hsl(122, 40%, 50%);
+    color: #fff;
 }
 
 .skills__name {
     font-size: 1rem;
     font-weight: normal;
     line-height: 18px;
+    color: #fff;
 }
 
 .skills__level {
     font-size: var(--tiny-font-size);
+}
+
+.skills__icon-container {
+    display: flex;
+    padding: 8px 0;
+    margin-left: 300px;
 }
 
 @media screen and (max-width: 992px) {
