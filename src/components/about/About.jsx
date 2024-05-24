@@ -1,6 +1,5 @@
 import React from 'react';
 import "./about.css";
-import CV from "../../assets/Thinh_Nguyen_Cv.pdf";
 import Info from './Info';
 import Social from '../home/Social';
 
@@ -21,7 +20,7 @@ const About = () => {
                     My name is Thinh Nguyen, and I work as a junior frontend and backend web developer. I am from Hanoi, Vietnam's capital. I am an international student at the Oulu University of Applied Sciences in Finland.
                     </p>
 
-                    <a download="" href={CV} className="button button--flex">
+                    <a download="" href="" className="button button--flex">
                         Download CV
                         <svg
                             class="button__icon"
