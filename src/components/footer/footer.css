@@ -1,5 +1,5 @@
 .footer {
-    background-color: var(--container-color);
+    background-color: hsl(122, 40%, 50%);
     border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
@@ -9,7 +9,7 @@
 
 .footer__title,
 .footer__link {
-    color: hsl(122, 40%, 50%);
+    color: #fff
 }
 
 .footer__title {
@@ -18,7 +18,7 @@
 }
 
 .footer__link:hover {
-    color: var(--title-color-dark);
+    opacity: .5;
 }
 
 .footer__list {
@@ -28,6 +28,11 @@
     margin-bottom: var(--mb-2);
 }
 
+.footer__intro {
+    text-align: center;
+    color: #fff;
+}
+
 .footer__social {
     display: flex;
     justify-content: center;
@@ -35,9 +40,8 @@
 }
 
 .footer__social-link {
-    background-color: hsl(122, 40%, 50%);
     color: var(--container-color);
-    font-size: 1.115rem;
+    font-size: 2rem;
     padding: 0.4rem;
     border-radius: 0.5rem;
     display: inline-flex;
@@ -54,7 +58,7 @@
     text-align: center;
     font-size: var(--smaller-font-size);
     font-weight: bold;
-    color: hsl(122, 40%, 50%);
+    color: #fff;
 }
 
 @media screen and (max-width: 992px) {

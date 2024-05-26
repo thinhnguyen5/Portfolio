@@ -7,9 +7,9 @@ const Footer = () => {
         <div className="footer__container container">
             <h1 className="footer__title">Thinh Nguyen</h1>
 
-            <ul className="footer__list">
+            {/* <ul className="footer__list">
                 <li>
-                    <a href="#about"
+                    <a href="#home"
                     className='footer__link'>About</a>
                 </li>
 
@@ -32,7 +32,11 @@ const Footer = () => {
                     <a href="#contact"
                     className='footer__link'>Contact</a>
                 </li>
-            </ul>
+            </ul> */}
+            <div className="footer__intro">
+                <p>If you find my profile match with you, please contact me at</p>
+                <span>thinhnguyen050700@gmail.com | or direct me to my social media</span>
+            </div>
 
             <div className="footer__social">
                 <a href="https://www.instagram.com/th1nh.n/" className="footer__social-link" target="_blank">
