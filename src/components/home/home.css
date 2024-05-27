@@ -19,11 +19,11 @@
 
 .home__social-icon {
     font-size: 2.5rem;
-    color: hsl(122, 40%, 50%);
+    color: #253423ff;
 }
 
 .home__social-icon:hover {
-    color: hsl(122, 66%, 50%);
+    opacity: .5;
 }
 
 .home__title {
@@ -44,7 +44,7 @@
     position: absolute;
     width: 70px;
     height: 3px;
-    background-color: hsl(121, 47%, 32%);
+    background-color: #253423ff;
     left: 0;
     top: 1rem;
 }
@@ -98,7 +98,7 @@
 }
 
 .home__scroll-name {
-    color: hsl(122, 40%, 50%);
+    color: #253423ff;
     font-weight: var(--font-medium);
     margin-right: var(--mn-0.25);
     margin-left: 2px;
@@ -106,13 +106,13 @@
 
 .home__scroll-arrow {
     font-size: 1.25rem;
-    color: hsl(122, 40%, 50%);
+    color: #253423ff;
 }
 
 /* Information */
 
 .information__greet {
-    color:hsl(122, 40%, 50%)
+    color:#253423ff;
 }
 
 .information__greet h2{
@@ -129,7 +129,7 @@
 }
 
 .wrapper .static-txt {
-    color: hsl(122, 40%, 50%);
+    color: #253423ff;
     font-size: 30px;
     font-weight: 400;
 }
@@ -139,11 +139,11 @@
 }
 
 .dynamic-txts li {
-    color: hsl(122, 40%, 50%);
+    color: #253423ff;
     list-style: none;
     font-size: 40px;
     font-weight: 500;
-    text-shadow: .2rem .2rem #28272a;
+    text-shadow: .2rem .2rem #666;
 }
 
 @media screen and (max-width: 992px) {

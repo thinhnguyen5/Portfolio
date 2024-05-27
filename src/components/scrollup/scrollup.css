@@ -12,11 +12,11 @@
 
 .scrollup__icon {
     font-size: 1.5rem;
-    color: hsl(122, 33%, 34%);
+    color: rgb(55, 61, 53);
 }
 
 .scrollup:hover {
-    background-color: hsl(122, 66%, 50%);
+    opacity: .5;
 }
 
 .show-scroll {
