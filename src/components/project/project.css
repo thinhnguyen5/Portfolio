@@ -1,0 +1,66 @@
+.project {
+    height: 160vh;
+    padding: 4rem 12rem;
+    background-color: hsl(122, 40%, 50%);
+}
+
+.project__navigator {
+    margin: 8rem 8rem 4rem;
+    color: #fff;
+}
+
+.project__navigator h1 {
+    font-size: 4rem;
+}
+
+.project__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project__container-item {
+    width: 25rem;
+    height: 30rem;
+    margin: 10px 20px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    cursor: pointer;
+    position: relative;
+    color: #fff;
+}
+
+.project__container-item-img {
+    width: 100%;
+    height: 50%;
+    margin-bottom: .5rem;
+    object-fit: cover;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.project__container-item h3 {
+    font-size: 2rem;
+    padding: 10px 0;
+}
+
+.source {
+    bottom: 0;
+    position: absolute;
+    padding: 2px;
+}
+
+.source a {
+    background-color: #fff;
+    padding: 2px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #333;
+    position: relative;
+}
+
+.source__deploy {
+    margin-left: 10px;
+}
